@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Doctor John",
+      "username": "doctorjohn",
+      "password": "doctorpass",
+      "userType": "doctor"
+    },
+    {
+      "id": 2,
+      "fullname": "Patient Jane",
+      "username": "patientjane",
+      "password": "patientpass",
+      "userType": "patient",
+      "doctorId": 1
+    },
+    {
+      "id": 3,
+      "fullname": "Patient Alex",
+      "username": "patientalex",
+      "password": "patientpass",
+      "userType": "patient",
+      "doctorId": 1
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Doctor John",
+      "assignedPatients": 2
+    }
+  ]
+}
